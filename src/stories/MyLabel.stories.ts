@@ -38,3 +38,12 @@ export const CustomColors: Story = {
         fontColor: '#ddd'
     }
 }
+
+export const CustomBackgroundColor: Story = {
+    args:{
+        label:'No label',
+        size: 'h1',
+        fontColor: '#fff',
+        backgroundColor:'#000'
+    }
+}
