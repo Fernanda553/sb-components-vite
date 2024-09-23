@@ -1,8 +1,10 @@
 {
   "name": "fn-custom-components",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.1-rc5",
   "type": "module",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "keywords": [
     "react",
     "dev",
@@ -11,7 +13,7 @@
   ],
   "license": "MIT",
   "repository": {
-    "url": "https://TODO...",
+    "url": "https://github.com/Fernanda553/sb-components-vite",
     "type": "git"
   },
   "files": [
@@ -23,8 +25,8 @@
     ]
   },
   "peerDependencies": {
-    "react": "^16.8.0",
-    "react-dom": "^18.2.0"
+    "react": "^16.8.0 || ^ 17.0.0 || ^18.0.0",
+    "react-dom": "^18.2.0 || ^ 17.0.0 || ^18.0.0"
   },
   "scripts": {
     "dev": "npm run storybook",
